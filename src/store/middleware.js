@@ -10,3 +10,7 @@ middlewareList.push(thunk);
 if(!isProd){
     middlewareList.push(createLogger());
 }
+
+const middleware = compose(applyMiddleware(...middlewareList));
+
+export default middleware;
