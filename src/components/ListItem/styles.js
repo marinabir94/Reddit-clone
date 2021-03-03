@@ -1,4 +1,4 @@
-import styled from 'style-components';
+import styled from 'styled-components';
 
 export const Item = styled.li`
 border-bottom: 1px solid ${({ theme }) => theme.border};
@@ -37,7 +37,7 @@ font-size: 14px;
 color: ${({ theme }) => theme.textSecondary};
 `;
 
-export const CommentLink = styled.a`
+export const CommentsLink = styled.a`
 color: ${({ theme }) => theme.textSecondary};
 &:visited {
   color: ${({ theme }) => theme.textSecondary};

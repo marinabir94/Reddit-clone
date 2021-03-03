@@ -14,9 +14,9 @@ const ListItem = () => {
             </ExternalLink>
             <Description>
                 <CommentsLink href='#' rel={LINK_REL} target='_blank'>
-                marinaballester
+                marinaballester 
                 </CommentsLink>
-                1 hour ago {' | '}
+                {' | '}1 hour ago {' | '}
                 <CommentsLink href='#' rel={LINK_REL} target='_blank'>
                 42 comments
                 </CommentsLink>

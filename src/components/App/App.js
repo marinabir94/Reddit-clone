@@ -7,7 +7,7 @@ import logo from "./logo.svg";
 import { ThemeProvider } from 'styled-components';
 import { colorsDark } from '../../styles/palette' 
 import { Wrapper, Title } from './styles';
-import List  from 'components/List';
+import List from '../List/index';
 
 function App() {
   return (
