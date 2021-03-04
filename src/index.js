@@ -5,6 +5,9 @@ import configureStore from './store';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './styles/globals';
+import redditApi from './services/redditApi';
+
+redditApi.getSubreddits().then(subreddits => console.log(subreddits));
 
 const renderApp = () => {
   const initialState = {};
